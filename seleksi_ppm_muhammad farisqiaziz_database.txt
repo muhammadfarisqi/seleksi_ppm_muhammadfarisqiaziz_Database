@@ -1,0 +1,6 @@
+SELECT * FROM `provinces`
+ALTER TABLE provinces RENAME TO provinsi
+SELECT * FROM `regencies`
+ALTER TABLE regencies RENAME TO kabupaten_kota
+ALTER TABLE districts RENAME TO kecamatan
+ALTER TABLE villages RENAME TO desa
